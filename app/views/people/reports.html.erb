@@ -1,0 +1,30 @@
+<% if @with_cars %>
+  <table>
+    <tr>
+      <td>Name</td>
+      <td>Car</td>
+    </tr>
+    <% @with_cars.each do |wc| %>
+      <tr>
+        <td><%= wc[:name] %></td>
+        <td><%= wc[:car_name] %></td>
+      </tr>
+    <% end %>
+  </table>
+<% end %>
+
+<% if @count_car %>
+  <hr>
+  <table>
+    <tr>
+      <td>Name</td>
+      <td>Total Car</td>
+    </tr>
+    <% @count_car.each do |wc| %>
+      <tr>
+        <td><%= wc[0] %></td>
+        <td><%= wc[1] %></td>
+      </tr>
+    <% end %>
+  </table>
+<% end %>

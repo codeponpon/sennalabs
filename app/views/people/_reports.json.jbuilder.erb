@@ -1,0 +1,7 @@
+<% if with_cars %>
+  json.extract! with_cars, :name, :car_name
+<% end %>
+
+<% if count_car %>
+  json.extract! count_car
+<% end %>
