@@ -1,16 +1,22 @@
-#Rails Developer questions
+# Rails Developer questions
 
-*Question #1 Super Basic
+* Question #1 Super Basic
+
 Create a Github repository and create a new rails project.
 
-*Question #2 Create a Model, View and Controller for People
+* Question #2 Create a Model, View and Controller for People
+
 After you are finished, users should be able to create, update, view and delete people via web interface. ​Note:​ ​For this question, we primarily care about functionality not looks. But if you want to make it look nice, then that will bonus points that could result in a higher salary offer.
 
-*Question #3 Create a Model, View and Controller for Cars
-Cars are owned by 1 person. After you are finished, users should be able to create, update, view and delete cars via web interface. ​Note:​ ​For this question, we primarily care about functionality not looks. But if you want to make it look nice, then that will bonus points that could result in a higher salary offer.
+* Question #3 Create a Model, View and Controller for Cars
 
-*Question #4 Create a report that displays the following data in a table:
-Note:​ ​For this question, we primarily care about functionality not looks. But if you want to make it look nice, then that will bonus points that could result in a higher salary offer.
+Cars are owned by 1 person. After you are finished, users should be able to create, update, view and delete cars via web interface. 
+
+*Note: For this question, we primarily care about functionality not looks. But if you want to make it look nice, then that will bonus points that could result in a higher salary offer.*
+
+* Question #4 Create a report that displays the following data in a table:
+
+*Note: For this question, we primarily care about functionality not looks. But if you want to make it look nice, then that will bonus points that could result in a higher salary offer.*
 Person’s name, Car Example:
 Rick, Corvette Z06
 Rick, Lotus Exite S
@@ -22,24 +28,25 @@ Nan, BMW M5
 Nan, Jaguar
 Nan, TukTuk Nan, Mini Cooper Nan, Honda Jazz
 
-*Question #5 Create a report that displays the following data in a table:
-Note:​ ​For this question, we primarily care about functionality not looks. But if you want to make it look nice, then that will bonus points that could result in a higher salary offer.
+* Question #5 Create a report that displays the following data in a table:
+*Note: For this question, we primarily care about functionality not looks. But if you want to make it look nice, then that will bonus points that could result in a higher salary offer.*
 Person’s name, number of cars owned
 Example: Rick, 3
 Zing, 2 Nan, 7 John, 2
 
-*Question #6 Create an API endpoint for the reports above
+* Question #6 Create an API endpoint for the reports above
+
 Design and create and API endpoint(s) for the reports you made above and have them return JSON format.
 
-#Standard Backend Developer Questions
+# Standard Backend Developer Questions
 
-*Question #1 - Warm Up
+* Question #1 - Warm Up
 ```ruby
 def hello
   "Hello #{yield}"
 end
 ```
-*Question #2 - Junior Level
+* Question #2 - Junior Level
 ```ruby
 def csv_sorting(csv_file)
   file = CSV.read csv_file, headers: true
@@ -49,7 +56,7 @@ def csv_sorting(csv_file)
 end
 ```
 
-*Question #3 - Junior Level
+* Question #3 - Junior Level
 
 ```ruby
 def lucky(num)
@@ -65,7 +72,7 @@ def lucky(num)
 end
 ```
 
-*Question #4 - Junior to Mid Level
+* Question #4 - Junior to Mid Level
 
 ```ruby
 def lotto
@@ -80,7 +87,7 @@ def lotto
 end
 ```
 
-*Question #5 Mid Level
+* Question #5 Mid Level
 
 ```ruby
 test "should return hello with any input data" do
@@ -101,7 +108,7 @@ test "should show last two digit prepending 0 - 9" do
 end
 ```
 
-*Question #6 Mid Level
+* Question #6 Mid Level
 
 ```sql
 SELECT people.name, cars.name as car_name FROM "people" INNER JOIN "cars" ON "cars"."person_id" = "people"."id"
